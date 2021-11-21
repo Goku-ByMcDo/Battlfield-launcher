@@ -1,0 +1,26 @@
+﻿<Window x:Class="Launcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Launcher"
+        mc:Ignorable="d"
+        Title="Battlfield Launcher" Height="450" Width="800" ResizeMode="NoResize" Icon="téléchargé.jpg">
+    <Grid>
+        <Label Content="Battlfield Launcher" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="63" Width="363" FontFamily="Segoe UI Semibold" FontSize="36"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="267" VerticalAlignment="Top" Width="467" Margin="10,96,0,0" Background="#FFF8FCFF">
+            <Label Content="Actualité Battlfield"  FontFamily="Segoe UI Semibold" FontSize="16"/>
+        </ScrollViewer>
+        <Button x:Name="github" Content="GitHub" HorizontalAlignment="Left" Margin="561,127,0,0" VerticalAlignment="Top" Width="159" Height="35" RenderTransformOrigin="-0.013,0.5" Click="github_Click" />
+
+        <Button x:Name="playbf4" Content="Lancer BF4" HorizontalAlignment="Left" Margin="522,248,0,0" VerticalAlignment="Top" Width="239" Height="35" RenderTransformOrigin="-0.013,0.5" FontFamily="Segoe UI Semibold" FontSize="16" Click="playbf4_Click" />
+        <Button x:Name="playbf1"  Content="Lancer BF1" HorizontalAlignment="Left" Margin="522,288,0,0" VerticalAlignment="Top" Width="239" Height="35" RenderTransformOrigin="-0.013,0.5" FontFamily="Segoe UI Semibold" FontSize="16" Background="#FFDDDDDD" Click="playbf1_Click" />
+        <Button x:Name="playbf5" Content="Lancer BF5" HorizontalAlignment="Left" Margin="522,328,0,0" VerticalAlignment="Top" Width="239" Height="35" RenderTransformOrigin="-0.013,0.5" FontFamily="Segoe UI Semibold" FontSize="16" Background="#FFDDDDDD" Click="playbf5_Click"/>
+        <Button x:Name="playbf3" Content="Lancer BF3" HorizontalAlignment="Left" Margin="522,208,0,0" VerticalAlignment="Top" Width="239" Height="35" RenderTransformOrigin="-0.013,0.5" FontFamily="Segoe UI Semibold" FontSize="16" Click="playbf3_Click"/>
+        
+        <Label Content="Version du launcher : 0.1" HorizontalAlignment="Left" Margin="10,383,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold"/>
+        <Label Content="Battlfield 2042" HorizontalAlignment="Left" Margin="585,10,0,0" VerticalAlignment="Top" Width="153" FontFamily="Segoe UI Semibold"/>
+        <Image Margin="512,41,33,309" Source="Battefield2042.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>
